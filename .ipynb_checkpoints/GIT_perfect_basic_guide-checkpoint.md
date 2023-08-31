@@ -1,7 +1,6 @@
 # Ultimate Guide to GIT for Ubuntu
 ## Created by Jennifer Grisales
 ## Creado el 30 de agosto de 2023
-## Mod 31 agosto 2023
 ### This file uses markdown. References appears throughout the document.
 ### Waring: If you follow each command lines you will succeed. Please don't get so creative.
 
@@ -39,10 +38,9 @@ Your public key has been saved in /home/jennifer/.ssh/id_rsa.pub
 The key fingerprint is:
 
 **A character block appears here**
-
-> SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o yourname@domain.name
+SHA256:SMSPIStNyA00KPxuYu94KpZgRAYjgt9g4BA4kFy3g1o yourname@domain.name
 The key's randomart image is:
-> +--[ED25519 256]--+
++--[ED25519 256]--+
 |^B== o.          |
 |%*=.*.+          |
 |+=.E =.+         |
@@ -111,11 +109,7 @@ We need understand the mechanism/protocol of git:
 - If you want to have very alternative versions of a proyect you should have other BRANCHES obviously at the same level of MASTER.
 - You need to tell git which branch you'll use. For starting in this world we'll ignore this posibility and for now will always work in the MASTER branch.
 - When you make changes to the repository you can identify a state of the work that maybe should be saved if something gets damaged later on. For make that, git stablish three levels of working:
-Level 1: **Working directory** (Unsaved data)
-> git status
-
-With _git status_ let you know know which files are being modified.
-
+Level 1: **Working directory** (Unsaved data) 
 Level 2: **Staging area** (Identified changes) typing:
 > git add
 
