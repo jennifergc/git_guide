@@ -12,7 +12,9 @@
 2) Prove the instalation:
    
 > mkdir prueba
+
 > cd prueba
+
 > git init
 
 You'll obtain a message like: 
@@ -99,6 +101,11 @@ Then, the output will be:
 > Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 Hi jennifergc! You've successfully authenticated, but GitHub does not provide shell access.
 >
+
+**FINALLY Type:**
+> git config --global user.email "you@example.com"
+
+> git config --global user.name "Tu Nombre"
 
 **WE DID IT!!!!!**
 
