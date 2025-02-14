@@ -12,6 +12,20 @@ This guide provides a step-by-step tutorial on how to install, configure, and us
 - Explanation of Git branches, commits, and synchronization.
 - Life hack for cloud-local synchronization using GitHub repositories.
 
+### Basic Git Workflow
+```sh
+git status         # Check the repository status
+git add -A        # Stage all changes
+git commit -m "Commit message"  # Commit changes
+git push -u origin main  # Push changes to remote repository
+git pull          # Update local repository with remote changes
+```
+
+### Cloning a Repository
+To clone a repository from GitHub:
+```sh
+git clone git@github.com:your_username/repository_name.git
+```
 ### Branch Management
 ```sh
 git branch feature-branch     # Create a new branch
