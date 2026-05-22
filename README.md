@@ -1,4 +1,4 @@
-# Ultimate Guide to GIT for Ubuntu
+# Guide to GIT for Ubuntu
 
 ## Created by Jennifer Grisales
 
