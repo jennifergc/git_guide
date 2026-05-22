@@ -24,7 +24,7 @@ git pull          # Update local repository with remote changes
 ### Cloning a Repository
 To clone a repository from GitHub:
 ```sh
-git clone git@github.com:your_username/repository_name.git
+git@github.com:jennifergc/git_guide.git
 ```
 ### Branch Management
 ```sh
