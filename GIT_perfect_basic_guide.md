@@ -1,7 +1,7 @@
 # Ultimate Guide to GIT for Ubuntu
 ## Created by Jennifer Grisales
 ## Creado el 30 de agosto de 2023
-## Mod 31 agosto 2023
+## Mod 22 mayo 2026
 ### This file uses markdown. References appears throughout the document.
 ### Waring: If you follow each command lines you will succeed. Please don't get so creative.
 
@@ -144,7 +144,7 @@ Level 3: **Git repository** (Saved version of the folder) typing:
 
 5) LIFE HACK FOR USE THE CLOUD - LOCAL SYNC
 
-Really I don't know how to made it different... so, MY WAY IS first create the repo on GITHUB and CLONE the repo in my LAPTOP
+Really I don't know how to made it different... (2026 change that see 6) so, MY WAY IS first create the repo on GITHUB and CLONE the repo in my LAPTOP
 (if you find another way, let me know). Follow the steps:
 
 - Ok, go to Github, click on _repositories_ and click on _New_
@@ -162,6 +162,29 @@ Let's go to CLONE this on our local server:
 - Type on the local repo folder:
   > git clone SSH link
 - Now you have a new folder in your directory.
+
+6)  I got it!!!!: Link an existing local repo to GitHub
+
+If you already have a local repository with commits and want to push it to GitHub:
+
+1. Go to GitHub → New repository → **Do NOT** add README or .gitignore (must be empty)
+2. Copy the SSH link
+3. In your terminal, inside your local repo:
+   
+> git remote add origin git@github.com:your_username/repo_name.git
+> git branch -M main
+> git push -u origin main
+
+To verify the connection:
+
+> git remote -v
+
+Output should show:
+
+> origin  git@github.com:your_username/repo_name.git (fetch)
+> origin  git@github.com:your_username/repo_name.git (push)
+
+From now on, just use `git push` to sync.
 
 **WE DID IT!!!!!**
 Now you can use the basic comand lines for sync the local repo with GITHUB.
