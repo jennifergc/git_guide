@@ -1,5 +1,5 @@
-# Ultimate Guide to GIT for Ubuntu
-## Created by Jennifer Grisales
+# EASY Guide to init GIT for Ubuntu and connect with Github by SSH
+## Created by J. Grisales-Casadiegos
 ## Creado el 30 de agosto de 2023
 ## Mod 22 mayo 2026
 ### This file uses markdown. References appears throughout the document.
